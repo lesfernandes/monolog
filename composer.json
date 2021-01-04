@@ -1,0 +1,21 @@
+{
+    "name": "lesfernandes/monolog",
+    "description": "Usando Monolog para Monitoramento de Projetos",
+    "config": {
+        "vendor-dir": "vendor"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+
+    "require": {
+        "monolog/monolog": "^2.2",
+        "sendgrid/sendgrid": "~7"
+    }
+}
